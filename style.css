@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+main {
+    margin-left: 165px;
+}
+
+body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.nav-item {
+    margin: 15px;
+    text-decoration: none;
+
+}
+
+.uppertitle {
+    color: rgba(45, 156, 219, 1);
+}
+
+p {
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pharep {
+    width: 366px;
+}
+
+.labeled {
+    background-color: rgba(242, 242, 242, 1);
+    width: fit-content;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+.maintitle {
+    width: 543px;
+}
+
+.labeled input {
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+}
+
+.labeled button {
+
+    background-color: rgba(45, 156, 219, 1);
+    color: white;
+    width: 94px;
+    height: 49px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+}
+
+.services p {
+    font-size: 16px;
+}
+
+.title {
+    padding-top: 150px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.title2 {
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.hero {
+    margin-left: 0;
+}
+
+.hero img {
+    width: 98%;
+    padding: 12px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.start {
+    background-color: rgba(45, 156, 219, 1);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+}
+
+span {
+    background-color: rgb(45, 156, 219);
+    color: white;
+    font-size: 30px;
+    border-radius: 25%;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(30, 99, 139);
+}
+
+button:active {
+    background-color: rgba(45, 156, 219, 1);
+
+    transform: translateY(4px);
+}
+
+.card {
+    width: 300px;
+    padding: 71px 34px 20px 34px;
+}
+
+.card:hover {
+    box-shadow: 0 10px 30px rgb(51, 51, 51);
+    cursor: pointer;
+}
+
+.create {
+    background-color: rgb(45, 156, 219);
+
+}
+
+.code {
+    background: rgba(39, 174, 96, 1);
+}
+
+.dns {
+    background: rgba(235, 87, 87, 1);
+}
+#design{
+    width: 448px;
+}
+.design {
+    display: flex;
+    width: 96%;
+    flex-wrap: wrap;
+}
+
+.design img {
+    width: 97%;
+    border-radius: 25px;
+}
+
+.title_design {
+    color: rgba(130, 130, 130, 1);
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.subtitle_design {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 0;
+}
+
+
+.designCard1 {
+    width: 50%;
+    margin-top: 188px;
+}
+
+.designCard2 {
+    width: 50%;
+}
+
+.designCard3 {
+    width: 50%;
+    margin-top: 188px;
+
+}
+
+.designCard4 {
+    width: 50%;
+}
+
+.more {
+    text-align: end;
+    margin-right: 110px;
+    color: rgba(45, 156, 219, 1);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.team {
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.teamItem {
+    width: 50%;
+}
+
+.teamTitle {
+    padding-top: 150px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(235, 87, 87, 1);
+}
+
+.teamDesc {
+    width: 280px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.teamPhrase {
+    width: 273px;
+}
+
+.teamGrid {
+    display: grid;
+    grid-template-areas: ". . G2 G2"
+        "G1 G1 G2 G2"
+        "G1 G1 G3 G3"
+        ". . G3 G3";
+}
+
+.G1 {
+    grid-area: G1;
+    width: 320px;
+    height: 320px;
+    margin: 12px;
+    border-radius: 24px;
+}
+
+.G2 {
+    grid-area: G2;
+    width: 260px;
+    height: 260px;
+    margin: 12px;
+    border-radius: 24px;
+}
+
+.G3 {
+    grid-area: G3;
+    width: 291.43px;
+    height: 300px;
+    margin: 12px;
+    border-radius: 24px;
+}
+
+.titlereview {
+    padding-top: 100px;
+    width: 937px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+
+
+}
+
+.reviewCard {
+    display: flex;
+    padding-bottom: 203px;
+}
+
+.reviewCard img {
+    width: 64px;
+    height: 64px;
+}
+
+.reviewName {
+    margin: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.reviewJob {
+    margin: 2px;
+    color: rgba(130, 130, 130, 1);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+footer {
+    background-color: rgba(16, 14, 29, 1);
+    color: white;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.flexfooter {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.navFooter a {
+    text-decoration: none;
+    color: white;
+}
+
+.navFooter ul {
+    list-style: none;
+    text-transform: none;
+}
+
+.navFooter {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.socialMedia img {
+    margin: 5px;
+}
+
+.ContactUs {
+    margin-right: 150px;
+}
+
+#hamburger-icon {
+    margin: 0;
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    list-style: none;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+
+
+@media only screen and (max-width:440px) {
+    header nav {
+        display: none;
+    }
+
+    #hamburger-icon {
+        display: block;
+    }
+
+    main {
+        margin-left: 40px;
+    }
+
+    .title2 {
+        font-size: 24px;
+    }
+
+    .hero img {
+        width: 380px;
+        padding: 10px;
+    }
+
+    .uppertitle {
+        font-size: 12px;
+    }
+
+    .maintitle {
+        width: 272px;
+    }
+
+    .pharep {
+        width: 295px;
+        font-size: 12px;
+    }
+
+    .title {
+        padding-top: 102px;
+    }
+
+    .services {
+        display: block;
+    }
+
+    .card {
+        width: 300px;
+        padding: 50px 27px 20px 20px;
+        height: 422px;
+    }
+
+    #design {
+        width: 330px;
+    }
+
+    .design {
+        display: block;
+        width: 100%;
+    }
+
+    .designCard1 {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .designCard2 {
+        width: 100%;
+    }
+
+    .designCard3 {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .designCard4 {
+        width: 100%;
+    }
+
+    .more {
+        text-align: end;
+        margin-right: 15px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .team {
+        display: block;
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .G1 {
+        grid-area: G1;
+        width: 178.16px;
+        height: 178.16px;
+        margin: 4.45px;
+        border-radius: 24px;
+    }
+
+    .G2 {
+        grid-area: G2;
+        width: 141.16px;
+        height: 141.16px;
+        margin: 4.45px;
+        border-radius: 24px;
+    }
+
+    .G3 {
+        grid-area: G3;
+        width: 162.25px;
+        height: 162.25px;
+        margin: 4.45px;
+        border-radius: 24px;
+    }
+
+    .titlereview {
+        padding-top: 45px;
+        width: 376px;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    .reviewName {
+        margin: 0 20px;
+    }
+    .reviewJob {
+        margin: 0 20px;
+    }
+
+    .flexfooter {
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    .reviewCard {
+        display: flex;
+        padding-bottom: 100px;
+    }
+    #design{
+        width: 300px;
+    }
+
+.socialMedia{
+    padding-left: 40px;
+}
+    .labeled {
+              width: 341px;
+    }
+
+    .ContactUs {
+        padding-left: 40px;
+
+    }
+    .ContactUs {
+        margin-right: 0; 
+        margin-top: 20px;
+    }
+
+}
