@@ -85,6 +85,7 @@ p {
 }
 
 .title {
+    width: 346px;
     padding-top: 150px;
     font-size: 36px;
     font-style: normal;
@@ -173,6 +174,7 @@ button:active {
 }
 .design {
     display: flex;
+    margin: auto;
     width: 96%;
     flex-wrap: wrap;
 }
@@ -240,7 +242,7 @@ button:active {
 }
 
 .teamTitle {
-    padding-top: 150px;
+    padding-top: 100px;
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
@@ -449,7 +451,8 @@ footer {
     }
 
     main {
-        margin-left: 40px;
+        width: 95%;
+        margin: auto;
     }
 
     .title2 {
@@ -457,7 +460,7 @@ footer {
     }
 
     .hero img {
-        width: 380px;
+        width: 93%;
         padding: 10px;
     }
 
@@ -476,6 +479,8 @@ footer {
 
     .title {
         padding-top: 102px;
+        width: 250px;
+        font-size: 26px;
     }
 
     .services {
@@ -483,9 +488,10 @@ footer {
     }
 
     .card {
-        width: 300px;
+        width: 78%;
         padding: 50px 27px 20px 20px;
         height: 422px;
+    margin: auto;
     }
 
     #design {
@@ -530,31 +536,31 @@ footer {
 
     .G1 {
         grid-area: G1;
-        width: 178.16px;
-        height: 178.16px;
+        width: 90%;
+        height: auto;
         margin: 4.45px;
         border-radius: 24px;
     }
 
     .G2 {
         grid-area: G2;
-        width: 141.16px;
-        height: 141.16px;
+        width: 80px;
+        height: 80px;
         margin: 4.45px;
         border-radius: 24px;
     }
 
     .G3 {
         grid-area: G3;
-        width: 162.25px;
-        height: 162.25px;
+        width: 120px;
+        height: 120px;
         margin: 4.45px;
         border-radius: 24px;
     }
 
     .titlereview {
         padding-top: 45px;
-        width: 376px;
+        width: 95%;
         font-family: Poppins;
         font-size: 24px;
         font-style: normal;
@@ -582,14 +588,14 @@ footer {
     }
 
 .socialMedia{
-    padding-left: 40px;
+    padding-left: 25px;
 }
-    .labeled {
-              width: 341px;
-    }
 
+.labeled input{
+    font-size: 14px;
+}
     .ContactUs {
-        padding-left: 40px;
+        padding-left: 25px;
 
     }
     .ContactUs {
@@ -598,3 +604,86 @@ footer {
     }
 
 }
+
+@media only screen and (max-width:768px){
+    main{
+width: 98%;
+margin: auto;
+    }
+
+    .hero img{
+        width: 96%;
+    }
+    
+    .team{
+        display: block;
+        padding-top: 0;
+    }
+
+    .G1{
+        width: 90%;
+        height: auto;
+    }
+
+    .G2{
+        width: 70%;
+        height: auto;
+    }
+
+    .G3{
+        width: 90%;
+    }
+
+    .titlereview{
+               
+            width: 100%;
+             
+    }
+
+
+    .ContactUs{
+        margin-right: 0;
+    }
+} 
+
+@media only screen and ( width:1024px) {
+
+        main{
+width: 98%;
+margin: auto;
+    }
+
+    .hero img{
+        width: 96%;
+    }
+    
+    .team{
+        display: block;
+        padding-top: 0;
+    }
+
+    .G1{
+        width: 90%;
+        height: auto;
+    }
+
+    .G2{
+        width: 70%;
+        height: auto;
+    }
+
+    .G3{
+        width: 90%;
+    }
+
+    .titlereview{
+               
+            width: 100%;
+             
+    }
+
+
+    .ContactUs{
+        margin-right: 0;
+    }
+} 
